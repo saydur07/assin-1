@@ -92,20 +92,6 @@ h4 {
   border-radius: 16px;
   display: block;
 }
-/* .img-2-container {
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("/image/Banner Image.png");
-} */
-
-/* .img-2 {
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
-  display: block;
-} */
 
 .sec-2 {
   position: relative;
@@ -120,140 +106,6 @@ h4 {
   border-radius: 16px;
   overflow: hidden; /* Add overflow to contain the pseudo-element */
   position: relative;
-}
-
-.sec-2::before {
-  content: "";
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 16px;
-}
-header {
-  margin: 40px;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("/image/Banner Image.png");
-  background-position: center;
-  background-size: cover;
-  width: 1320px;
-  height: 600px;
-  flex-shrink: 0;
-  border-radius: 16px;
-  position: relative;
-}
-
-header::before {
-  content: "";
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
-}
-
-.banner-txt {
-  position: absolute;
-  font-family: Merriweather;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 95px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-}
-
-.banner-txt h3 {
-  margin-top: 10px;
-  width: 632px;
-  color: #fff;
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 95px;
-}
-
-.discount {
-  color: #f00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 88px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.sml-txt {
-  color: #f00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-h4 {
-  color: #070211;
-  text-align: center;
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.midl-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px; /* Adjust the margin as needed */
-  margin-bottom: 20px; /* Adjust the margin as needed */
-}
-
-.midl {
-  width: 50%; /* Adjust the width as needed */
-  height: auto;
-  border-radius: 16px;
-  display: block;
-}
-/* .img-2-container {
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("/image/Banner Image.png");
-} */
-
-/* .img-2 {
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
-  display: block;
-} */
-
-/* Your existing CSS goes here */
-.sec-2 {
-  position: relative;
-  margin: 40px;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("/image/Vectorrr.png");
-  background-position: center;
-  background-size: cover;
-  width: 1320px;
-  height: 600px;
-  flex-shrink: 0;
-  border-radius: 16px;
-  overflow: hidden;
 }
 
 .sec-2::before {
@@ -295,6 +147,7 @@ h4 {
   font-weight: 400;
   line-height: 30px;
 }
+
 .para-2 {
   position: absolute;
   top: 65%;
@@ -310,17 +163,17 @@ h4 {
   line-height: normal;
   text-transform: uppercase;
 }
+
 .mother-div {
   display: flex;
 }
+
 .flx {
   width: 319.83px;
   height: 464.662px;
   padding: 0.008px 0px 0px 0px;
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
+
 .bottombox {
   margin: 50px auto;
   padding: 20px;
@@ -333,16 +186,13 @@ h4 {
   flex-shrink: 0;
   position: relative;
 }
+
 .bottompara {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.bottompara {
   margin: 10px 0;
-
   color: #070211;
   font-family: Inter;
   font-size: 32px;
@@ -351,9 +201,11 @@ h4 {
   line-height: 56px;
   text-transform: capitalize;
 }
+
 .spn span {
   color: red;
 }
+
 .nbf {
   color: #f00;
   text-align: left;
@@ -363,6 +215,7 @@ h4 {
   font-weight: 500;
   line-height: normal;
 }
+
 .lft h2 {
   color: #070211;
   font-family: Merriweather;
@@ -372,6 +225,7 @@ h4 {
   line-height: normal;
   text-transform: capitalize;
 }
+
 .lst {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
@@ -380,6 +234,194 @@ h4 {
   font-weight: 400;
   line-height: 20px; /* 160% */
 }
+
 .sides-3 {
   display: flex;
+}
+
+.roundimg {
+  border: 20px solid rgb(248, 246, 246);
+  border-radius: 50%;
+}
+
+.round {
+  border: 8px solid red;
+  border-radius: 50%;
+}
+
+.yr {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.rght-txt {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 276px;
+}
+
+.functional {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.hly {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.sale {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.sml {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.hrd {
+  position: relative;
+}
+
+.ldy {
+  width: 429px;
+  height: 433px;
+  flex-shrink: 0;
+  border-radius: 16px 16px 0px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ldy img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bar {
+  position: absolute;
+  top: 433px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 229px;
+  z-index: 1;
+}
+
+.bar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box {
+  position: absolute;
+  top: 393px;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bst {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.awsm {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.gft h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.gft {
+  margin-top: 800px;
+  text-align: left;
+}
+.imgs3 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.combain {
+  justify-content: space-around;
+}
+.rst3 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.subscription-container {
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #070211; /* Border color */
+  border-radius: 10px;
+  width: 400px; /* Adjust the width as needed */
+  display: flex;
+  align-items: center;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #070211; /* Input box border color */
+  border-radius: 5px;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.subscribe-button {
+  background-color: #070211;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
